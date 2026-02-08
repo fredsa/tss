@@ -22,7 +22,7 @@
  *     false: Newer logs will be added to head.
  */
 var Log = function (id, reverse) {
-    this.lastLevel = "";
+    this.LastLevel = "";
     this.reverse = reverse;
 
     // Set default log scheme.
